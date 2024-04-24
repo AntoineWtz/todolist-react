@@ -62,7 +62,7 @@ function App() {
             </ul>
             <input
               type="text"
-              placeholder="Add tast ..."
+              placeholder="Add task ..."
               onKeyDown={(e) => {
                 if (e.key === 'Enter') {
                   addCard(listIndex, e.target.value);

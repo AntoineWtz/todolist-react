@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   const [lists, setLists] = useState([
-    { id: 1, title: 'À Faire', cards: [] },
-    { id: 2, title: 'En Cours', cards: [] },
-    { id: 3, title: 'Terminé', cards: [] },
+    { id: 1, title: 'To do', cards: [] },
+    { id: 2, title: 'Pending', cards: [] },
+    { id: 3, title: 'Done', cards: [] },
   ]);
 
   const [draggedItem, setDraggedItem] = useState(null);
@@ -56,13 +56,13 @@ function App() {
                   onDragStart={() => handleDragStart(listIndex, cardIndex)}
                 >
                   {card.text}
-                  <button onClick={() => removeCard(listIndex, cardIndex)}>Supprimer</button>
+                  <button onClick={() => removeCard(listIndex, cardIndex)}>Delete</button>
                 </li>
               ))}
             </ul>
             <input
               type="text"
-              placeholder="Nouvelle Tâche"
+              placeholder="Add tast ..."
               onKeyDown={(e) => {
                 if (e.key === 'Enter') {
                   addCard(listIndex, e.target.value);

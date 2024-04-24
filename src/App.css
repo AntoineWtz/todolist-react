@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #070F2B;
-  color:#9290C3;
+  background-color: #001011;
+  color:#F7F3E3;
 }
 
 .App {
@@ -27,8 +27,8 @@ h2 {
 }
 
 .list {
-  border: 1px solid #9290C3;
-  border-radius: 5px;
+  border: 1px solid #7D7461;
+  border-radius: 10px;
   width: 300px;
   margin: 10px;
   padding: 10px;
@@ -47,15 +47,16 @@ li {
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
-  background-color: #535C91;
-  padding: 10px 20px;
+  background-color: #7D7461;
+  padding: 10px 15px;
   border-radius: 5px;
-  color: white;
+  color: #F7F3E3;
   transition: background-color 0.2s ease;
 }
 
 li:hover {
-  background-color: #9290C3;
+  background-color: #F7F3E3;
+  color: #1D1E2C;
   cursor: grab;
 }
 
@@ -64,22 +65,23 @@ li:active {
 }
 
 button{
-  background-color: #9290C3;
+  background-color: #001011;
+  color: #F7F3E3;
   border: none;
-  padding: 4px;
+  padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
 }
 button:hover {
-  background-color: #FF7F7F;
+  background-color: #D7263D;
 }
 
 input {
   border: none;
   width: 100%; 
-  font-size: 16px;
+  font-size: 14px;
   padding: 8px;
-  background-color: #535C91;
-  color: #070F2B;
+  background-color: #001011;
+  color: #F7F3E3;
 }
 

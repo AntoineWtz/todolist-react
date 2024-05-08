@@ -85,3 +85,29 @@ input {
   color: #F7F3E3;
 }
 
+@media screen and (max-width: 768px) {
+  .board {
+    flex-direction: column;
+  }
+
+  .list {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+/* Pour les écrans de petite taille */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .list {
+    width: 100%;
+    margin: 10px auto;
+  }
+}

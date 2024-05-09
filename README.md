@@ -1,59 +1,33 @@
-# Todo List App - React
 
-This project is a simple ToDo List app like Trello built with React
+# ToDo List App
 
-## Getting Started
-
-To run the app in the development mode, use the following command :
-
-`npm start`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
-
-## Technologies Used
-
-* React: A JavaScript library for building user interfaces.
-* Create React App: A tool to bootstrap React applications.
-* CSS: Styling for the app.
+This is a simple ToDo List application built using React.
 
 ## Features
 
-* Add tasks to different lists.
-* Move tasks between lists.
-* Delete tasks.
-* Modern and user-friendly interface.
+* Three lists: To do, Pending, Done.
+* Add tasks to any list.
+* Drag and drop tasks between lists.
+* Remove tasks from any list.
 
-## How to Use
+## Usage
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory in the terminal.
-3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
-5. Open the app in your browser at [http://localhost:3000](http://localhost:3000).
+1. Clone this repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
+4. Open [http://localhost:3000]() to view it in the browser.
 
-Feel free to customize and expand this README to provide more details about your project. You can include information about additional features, deployment, and any other relevant details.
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
+## Preview
 
 ## Technologies Used
 
-* React: A JavaScript library for building user interfaces.
-* Create React App: A tool to bootstrap React applications.
-* CSS: Styling for the app.
+* React
+* CSS
 
-## Features
+## Contributing
 
-* Add tasks to different lists.
-* Move tasks between lists.
-* Delete tasks.
-* Modern and user-friendly interface.
+Contributions are welcome! Please feel free to submit a pull request.
 
-## How to Use
+## License
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory in the terminal.
-3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
-5. Open the app in your browser at [http://localhost:3000](http://localhost:3000).
-
-Feel free to customize and expand this README to provide more details about your project. You can include information about additional features, deployment, and any other relevant details.
+This project is licensed under the MIT License - see the [LICENSE]() file for details.

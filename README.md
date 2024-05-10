@@ -3,7 +3,7 @@
 
 This is a simple ToDo List application built using React.
 
-https://antoinewtz.github.io/todolist-react/
+demo : https://antoinewtz.github.io/todolist-react/
 
 ## Features
 
